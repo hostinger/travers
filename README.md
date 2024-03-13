@@ -23,7 +23,7 @@ Travers::get('fruits.apple.red', $params); // null
 
 ## Installation
 
-`composer require laurynasgadl/travers`
+`composer require hostinger/travers`
 
 ## Documentation
 ### Initializing
@@ -31,7 +31,7 @@ The library can be used either by creating the instance for the class
 or using it statically.
 
 ```php
-use Luur\Travers;
+use Hostinger\Travers\Travers;
 
 $data = [
     'path' => 1,
