@@ -1,8 +1,8 @@
 <?php
 
-namespace Luur;
+namespace Hostinger\Travers;
 
-use Luur\Exceptions\BranchNotFoundException;
+use Hostinger\Travers\Exceptions\BranchNotFoundException;
 
 class Travers
 {

@@ -1,39 +1,22 @@
 {
-  "name": "laurynasgadl/travers",
+  "name": "hostinger/travers",
+  "description": "PHP array traversing via tokenized paths",
   "type": "library",
-  "description": "Travers - PHP array traversing via tokenized paths",
-  "keywords": [
-    "php",
-    "array",
-    "path",
-    "travers"
-  ],
   "license": "MIT",
-  "authors": [
-    {
-      "name": "Laurynas Gadliauskas",
-      "homepage": "https://github.com/laurynasgadl"
-    }
-  ],
   "require": {
-    "php": "^7.3|^8.0"
+    "php": "^8.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^9"
   },
   "autoload": {
     "psr-4": {
-      "Luur\\": "src/"
+      "Hostinger\\Travers\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Luur\\Tests\\": "tests/"
-    }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0.x-dev"
+      "Hostinger\\Travers\\Tests\\": "tests/"
     }
   }
 }

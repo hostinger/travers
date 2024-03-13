@@ -1,9 +1,9 @@
 <?php
 
-namespace Luur\Tests;
+namespace Hostinger\Travers\Tests;
 
-use Luur\Exceptions\BranchNotFoundException;
-use Luur\Travers;
+use Hostinger\Travers\Exceptions\BranchNotFoundException;
+use Hostinger\Travers\Travers;
 use PHPUnit\Framework\TestCase;
 
 class TraversTest extends TestCase
@@ -11,7 +11,7 @@ class TraversTest extends TestCase
     /**
      * @var array
      */
-    protected $tree;
+    protected array $tree;
 
     public function setUp(): void
     {

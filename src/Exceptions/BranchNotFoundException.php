@@ -1,6 +1,6 @@
 <?php
 
-namespace Luur\Exceptions;
+namespace Hostinger\Travers\Exceptions;
 
 class BranchNotFoundException extends \Exception
 {

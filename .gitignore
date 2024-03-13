@@ -4,3 +4,4 @@ composer.lock
 vendor/
 tests/build/
 .idea
+.phpunit.result.cache
